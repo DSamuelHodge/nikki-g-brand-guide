@@ -32,7 +32,7 @@ const ColorSwatch: React.FC<{ color: ColorInfo }> = ({ color }) => (
 
 const ColorPaletteGuide: React.FC = () => {
   return (
-    <section id="colors">
+    <section id="colors" className="scroll-mt-24">
       <SectionTitle subtitle="Visual Foundation">Color Palette</SectionTitle>
       <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-6 md:gap-8">
         {colors.map((color) => (

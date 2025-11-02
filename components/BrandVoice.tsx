@@ -10,7 +10,7 @@ const BrandVoice: React.FC = () => {
   ];
 
   return (
-    <section id="brand-voice">
+    <section id="brand-voice" className="scroll-mt-24">
       <SectionTitle subtitle="Philosophy">Our Brand Voice</SectionTitle>
       <div className="mt-12 grid md:grid-cols-3 gap-8 md:gap-12 text-center">
         {voices.map((voice) => (

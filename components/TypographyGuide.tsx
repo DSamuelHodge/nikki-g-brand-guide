@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle';
 
 const TypographyGuide: React.FC = () => {
   return (
-    <section id="typography">
+    <section id="typography" className="scroll-mt-24">
       <SectionTitle subtitle="Voice & Tone">Typography</SectionTitle>
       <div className="mt-12 grid md:grid-cols-2 gap-12 md:gap-16 items-start">
         <div className="space-y-6">

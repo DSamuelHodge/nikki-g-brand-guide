@@ -3,7 +3,7 @@ import SectionTitle from './SectionTitle';
 
 const ComponentGuide: React.FC = () => {
   return (
-    <section id="components">
+    <section id="components" className="scroll-mt-24">
       <SectionTitle subtitle="User Interface">Component Guide</SectionTitle>
       <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
         

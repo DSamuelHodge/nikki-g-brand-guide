@@ -6,11 +6,11 @@ const ImageryGuide: React.FC = () => {
   const images = [
     { src: 'https://iili.io/KL0Sfku.png', alt: 'Woman with glowing facial skin', style: 'col-span-2 row-span-2' },
     { src: 'https://iili.io/KsRdIKF.jpg', alt: 'Serum droplet on arm skin', style: '' },
-    { src: 'https://iili.io/KsRdHP9.jpg', alt: 'Woman with dark skin and glowing complexion', style: '' },
+    { src: 'https://iili.io/KsRjX7p.jpg', alt: 'Formulated Lip Balm', style: '' },
   ];
 
   return (
-    <section id="imagery">
+    <section id="imagery" className="scroll-mt-24">
       <SectionTitle subtitle="Art Direction">Imagery & Mood</SectionTitle>
       <div className="mt-12">
         <p className="text-center text-lg max-w-3xl mx-auto text-midnight-green/80 mb-12">

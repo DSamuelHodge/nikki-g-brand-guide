@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <div className="relative h-[60vh] md:h-[70vh] w-full flex items-center justify-center text-center text-pearl-white overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://iili.io/KL0yfzQ.png')" }}
+        style={{ backgroundImage: "url('https://iili.io/KLFmTTg.jpg')" }}
       ></div>
       <div className="absolute inset-0 bg-midnight-green/50"></div>
       <div className="relative z-10 px-4">

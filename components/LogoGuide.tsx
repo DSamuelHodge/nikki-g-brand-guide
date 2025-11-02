@@ -25,7 +25,7 @@ const LogoGuide: React.FC = () => {
   ];
 
   return (
-    <section id="logo">
+    <section id="logo" className="scroll-mt-24">
       <SectionTitle subtitle="Brand Mark">Logo Usage</SectionTitle>
       <div className="mt-12 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
         
