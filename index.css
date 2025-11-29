@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-pearl-white: #F9F8F6;
+  --color-botanical-cream: #EDE6D9;
+  --color-midnight-green: #0D2E26;
+  --color-sea-mineral-green: #4C8C78;
+  --color-sage-mist: #C7D6C9;
+  --color-champagne-gold: #D8C6A0;
+  --color-radiant-coral: #E87D72;
+
+  --font-family-sans: 'Inter', sans-serif;
+  --font-family-serif: 'Cormorant Garamond', serif;
+}
+
+/* Global base styles as per brand guide */
+html {
+  font-family: var(--font-family-sans);
+  color: var(--color-midnight-green);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-serif);
+}
+
+p {
+  line-height: 1.75; /* relaxed leading */
+}

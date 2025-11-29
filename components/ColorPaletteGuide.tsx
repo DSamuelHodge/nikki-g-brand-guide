@@ -21,7 +21,7 @@ const colors: ColorInfo[] = [
 
 const ColorSwatch: React.FC<{ color: ColorInfo }> = ({ color }) => (
   <div className="flex flex-col">
-    <div className={`h-32 md:h-40 w-full rounded-lg bg-${color.token} flex items-end p-4 shadow-sm`}>
+    <div className="h-32 md:h-40 w-full rounded-lg flex items-end p-4 shadow-sm" style={{ backgroundColor: color.hex }}>
       <div className={`backdrop-blur-sm bg-black/10 rounded-md p-2 ${color.textColor}`}>
         <p className="font-bold text-sm">{color.name}</p>
         <p className="font-mono text-xs opacity-80">{color.hex}</p>

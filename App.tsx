@@ -11,6 +11,10 @@ import ComponentGuide from './components/ComponentGuide';
 import Founder from './components/Founder';
 import Footer from './components/Footer';
 
+
+
+
+
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-pearl-white text-midnight-green antialiased">
